@@ -1,8 +1,10 @@
 # Number to Words
 
-|         Coverage        |        Downloads        |         Release         |
-|:-----------------------:|:-----------------------:|:-----------------------:|
-| [![Coverage Status](https://coveralls.io/repos/github/narokishi/number-to-words/badge.svg?branch=master)](https://coveralls.io/github/narokishi/number-to-words?branch=master) | [![Total Downloads](https://poser.pugx.org/narokishi/number-to-words/downloads?format=flat-square)](https://packagist.org/packages/narokishi/number-to-words) | [![Latest Stable Version](https://poser.pugx.org/narokishi/number-to-words/v/stable?format=flat-square)](https://packagist.org/packages/narokishi/number-to-words) |
+| Build | Coverage | Downloads | Release | License |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| [![Build Status](https://travis-ci.com/narokishi/number-to-words.svg?branch=master)](https://travis-ci.com/narokishi/number-to-words) | [![Coverage Status](https://coveralls.io/repos/github/narokishi/number-to-words/badge.svg)](https://coveralls.io/github/narokishi/number-to-words) | [![Total Downloads](https://poser.pugx.org/narokishi/number-to-words/downloads)](https://packagist.org/packages/narokishi/number-to-words) | [![Latest Stable Version](https://poser.pugx.org/narokishi/number-to-words/v/stable)](https://packagist.org/packages/narokishi/number-to-words) | [![License](https://poser.pugx.org/narokishi/number-to-words/license)](https://packagist.org/packages/narokishi/number-to-words) |
+
+
 
 ## Description
 
@@ -64,6 +66,3 @@ git rebase master
  git push origin {branch} --force
 ```
 - Make a Pull Request on narokishi/number-to-words repository
-
-## License
-The project is open-sourced software licensed under the MIT license.
