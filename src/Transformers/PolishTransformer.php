@@ -60,7 +60,7 @@ class PolishTransformer extends AbstractTransformer
      */
     protected function transformToWords(string $number): string
     {
-        if (empty($number)) {
+        if (empty($number) || $number == 0) {
             return $this->dictionary->getZero();
         }
 
