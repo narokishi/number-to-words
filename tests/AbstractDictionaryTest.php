@@ -19,7 +19,7 @@ class AbstractDictionaryTest extends TestCase
     /**
      * @throws \ReflectionException
      */
-    public function setUp(): void
+    protected function setUp(): void
     {
         $this->dictionaryClass = $this->getMockForAbstractClass(AbstractDictionary::class);
     }

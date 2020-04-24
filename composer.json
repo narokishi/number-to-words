@@ -11,14 +11,16 @@
         }
     ],
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "ext-mbstring": "*"
     },
     "autoload": {
-        "classmap": [
-            "src/"
-        ],
         "psr-4": {
-            "Narokishi\\WordsFromNumber\\": "src/",
+            "Narokishi\\NumberToWords\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "Narokishi\\Tests\\": "tests/"
         }
     },

@@ -17,7 +17,7 @@ class PolishTransformerTest extends TestCase
      */
     protected $transformerClass;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         $this->transformerClass = new PolishTransformer;
     }
