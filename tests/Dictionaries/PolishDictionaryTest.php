@@ -17,7 +17,7 @@ class PolishDictionaryTest extends TestCase
      */
     protected $dictionaryClass;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         $this->dictionaryClass = new PolishDictionary;
     }
